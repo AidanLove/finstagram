@@ -75,10 +75,6 @@ get '/finstagram_posts/:id' do
   erb(:"finstagram_posts/show")               
 end
 
-get '/comments' do
-  
-  
-end
 
 post '/comments' do
   text = params[:text]
